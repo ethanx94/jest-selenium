@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true,
+    "jasmine": true
+  },
+  "extends": [
+      "airbnb-base"
+  ],
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "rules": {
+      "arrow-parens": "off",
+      "max-len": "off",
+      "no-console": "off",
+      "no-plusplus": "off",
+      "no-await-in-loop": "off",
+      "import/prefer-default-export": "off"
+  }
+}
