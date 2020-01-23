@@ -4,14 +4,17 @@
   "description": "This project shows how to drive your selenium tests with Jest.",
   "main": "index.test.js",
   "scripts": {
+    "start": "node index",
     "test": "jest"
   },
   "author": "Mathieu Schmidt",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chromedriver": "^79.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
     "jest": "^25.1.0",
-    "selenium-webdriver": "^4.0.0-alpha.5",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.0"
